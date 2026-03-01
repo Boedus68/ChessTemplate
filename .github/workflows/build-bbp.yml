@@ -1,0 +1,31 @@
+# Compila bbpPairings v4.1.0 per glibc 2.17 (CentOS 7)
+# Per eseguire: push su GitHub, poi Actions → Build bbpPairings → Run workflow
+# L'artifact bbpPairings.exe sarà scaricabile dalla pagina della run
+
+name: Build bbpPairings for old glibc
+
+on:
+  workflow_dispatch:  # Esecuzione manuale
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: centos:7
+      options: --user root
+    steps:
+      - name: Install deps and build
+        run: |
+          yum install -y centos-release-scl devtoolset-7-gcc-c++ make wget tar
+          source scl_source enable devtoolset-7
+          cd /tmp
+          wget -q https://github.com/BieremaBoyzProgramming/bbpPairings/archive/refs/tags/v4.1.0.tar.gz -O bbp.tar.gz
+          tar -xzf bbp.tar.gz
+          cd bbpPairings-4.1.0
+          make
+          cp bbpPairings.exe /tmp/bbpPairings.exe
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: bbpPairings-exe
+          path: /tmp/bbpPairings.exe

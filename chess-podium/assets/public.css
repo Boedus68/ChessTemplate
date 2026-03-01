@@ -1,0 +1,48 @@
+/**
+ * Chess Podium Public Shortcode Styles
+ */
+
+.cp-club-ranking,
+.cp-player-profile {
+    margin: 1.5rem 0;
+    font-family: inherit;
+}
+
+.cp-club-ranking h2,
+.cp-player-profile h2 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+}
+
+.cp-player-profile h3 {
+    margin: 1.5rem 0 0.75rem;
+    font-size: 1.2rem;
+}
+
+.cp-club-table,
+.cp-profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.cp-club-table th,
+.cp-club-table td,
+.cp-profile-table th,
+.cp-profile-table td {
+    padding: 0.6rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cp-club-table th,
+.cp-profile-table th {
+    background: #f5f5f5;
+    font-weight: 600;
+}
+
+.cp-club-table tbody tr:hover,
+.cp-profile-table tbody tr:hover {
+    background: #f9f9f9;
+}

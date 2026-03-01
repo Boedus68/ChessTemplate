@@ -1,0 +1,1818 @@
+# French translation for Chess Podium
+# Copyright (C) 2025
+# This file is distributed under the same license as the Chess Podium package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Chess Podium 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-25 12:00+0000\n"
+"PO-Revision-Date: 2026-02-28 12:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: chess-podium.php
+msgid "Create your first tournament from the WordPress admin panel."
+msgstr "Créez votre premier tournoi depuis le panneau d'administration WordPress."
+
+#: chess-podium.php
+msgid "Chess Podium - Tournament Manager"
+msgstr "Chess Podium - Gestionnaire de tournois"
+
+#: chess-podium.php
+msgid "Create tournament, add players, generate rounds automatically and enter results."
+msgstr "Créez des tournois, ajoutez des joueurs, générez les rondes automatiquement et saisissez les résultats."
+
+#: chess-podium.php
+msgid "Create new tournament"
+msgstr "Créer un nouveau tournoi"
+
+#: chess-podium.php
+msgid "Tournament name"
+msgstr "Nom du tournoi"
+
+#: chess-podium.php
+msgid "Rounds"
+msgstr "Rondes"
+
+#: chess-podium.php
+msgid "Tournament type"
+msgstr "Type de tournoi"
+
+#: chess-podium.php
+msgid "Swiss"
+msgstr "Suisse"
+
+#: chess-podium.php
+msgid "Round Robin"
+msgstr "Round Robin"
+
+#: chess-podium.php
+msgid "Swiss: pairing by score. Round Robin: everyone plays everyone."
+msgstr "Suisse : appariement par score. Round Robin : chacun joue contre chacun."
+
+#: chess-podium.php
+msgid "BYE points"
+msgstr "Points BYE"
+
+#: chess-podium.php
+msgid "Points awarded to player when they have a bye."
+msgstr "Points attribués au joueur en cas de bye."
+
+#: chess-podium.php
+msgid "Tiebreakers"
+msgstr "Départages"
+
+#: chess-podium.php
+msgid "Criteria order: buchholz, sb, rating, direct (comma-separated)."
+msgstr "Criteria order: buchholz, sb, rating, direct (comma-separated)."
+
+#: chess-podium.php
+msgid "Create tournament"
+msgstr "Créer le tournoi"
+
+#: chess-podium.php
+msgid "Existing tournaments"
+msgstr "Tournois existants"
+
+#: chess-podium.php
+msgid "No tournaments created."
+msgstr "Aucun tournoi créé."
+
+#: chess-podium.php
+msgid "Current round"
+msgstr "Ronde actuelle"
+
+#: chess-podium.php
+msgid "Tournament details"
+msgstr "Détails du tournoi"
+
+#: chess-podium.php
+msgid "Permanently delete this tournament? All players, pairings, photos and PGN games will be removed."
+msgstr "Permanently delete this tournament? All players, pairings, photos and PGN games will be removed."
+
+#: chess-podium.php
+msgid "Delete tournament"
+msgstr "Supprimer le tournoi"
+
+#: chess-podium.php
+msgid "Type"
+msgstr "Type"
+
+#: chess-podium.php
+msgid "Public page"
+msgstr "Page publique"
+
+#: chess-podium.php
+msgid "Publish tournament (static export)"
+msgstr "Publish tournament (static export)"
+
+#: chess-podium.php
+msgid "Generate a linkable HTML folder in wp-content/uploads/chess-podium/ with standings, pairings, PGN games and photo gallery."
+msgstr "Generate a linkable HTML folder in wp-content/uploads/chess-podium/ with standings, pairings, PGN games and photo gallery."
+
+#: chess-podium.php
+msgid "Publish tournament"
+msgstr "Publier le tournoi"
+
+#: chess-podium.php
+msgid "Open published page"
+msgstr "Open published page"
+
+#: chess-podium.php includes/class-export-engine.php
+msgid "Photo gallery"
+msgstr "Galerie photo"
+
+#: chess-podium.php
+msgid "Single upload"
+msgstr "Single upload"
+
+#: chess-podium.php
+msgid "or bulk (multiple files)"
+msgstr "or bulk (multiple files)"
+
+#: chess-podium.php
+msgid "or URL"
+msgstr "or URL"
+
+#: chess-podium.php
+msgid "Caption (optional)"
+msgstr "Caption (optional)"
+
+#: chess-podium.php
+msgid "Add photo"
+msgstr "Ajouter une photo"
+
+#: chess-podium.php
+msgid "Select multiple images with Ctrl+click (or Cmd+click on Mac). Caption applies to all photos in bulk upload."
+msgstr "Select multiple images with Ctrl+click (or Cmd+click on Mac). Caption applies to all photos in bulk upload."
+
+#: chess-podium.php
+msgid "Click on a photo to enlarge and browse."
+msgstr "Click on a photo to enlarge and browse."
+
+#: chess-podium.php
+msgid "Remove"
+msgstr "Supprimer"
+
+#: chess-podium.php
+msgid "PGN games"
+msgstr "Parties PGN"
+
+#: chess-podium.php
+msgid "Upload PGN file or paste content. Games will be viewable on the published page."
+msgstr "Upload PGN file or paste content. Games will be viewable on the published page."
+
+#: chess-podium.php
+msgid "Round"
+msgstr "Ronde"
+
+#: chess-podium.php
+msgid "Upload PGN"
+msgstr "Upload PGN"
+
+#: chess-podium.php
+msgid "White"
+msgstr "Blancs"
+
+#: chess-podium.php
+msgid "Black"
+msgstr "Noirs"
+
+#: chess-podium.php
+msgid "Result"
+msgstr "Résultat"
+
+#: chess-podium.php
+msgid "Name"
+msgstr "Nom"
+
+#: chess-podium.php
+msgid "Paste PGN here..."
+msgstr "Paste PGN here..."
+
+#: chess-podium.php
+msgid "Add game"
+msgstr "Ajouter une partie"
+
+#: chess-podium.php
+msgid "Loaded games"
+msgstr "Loaded games"
+
+#: chess-podium.php
+msgid "Round %d"
+msgstr "Round %d"
+
+#: chess-podium.php
+msgid "Add player"
+msgstr "Ajouter un joueur"
+
+#: chess-podium.php
+msgid "Import players from CSV"
+msgstr "Import players from CSV"
+
+#: chess-podium.php
+msgid "Import CSV"
+msgstr "Import CSV"
+
+#: chess-podium.php
+msgid "Format: name;rating or name,rating. First row: optional header (name,rating)."
+msgstr "Format: name;rating or name,rating. First row: optional header (name,rating)."
+
+#: chess-podium.php
+msgid "Import player from FIDE ID"
+msgstr "Import player from FIDE ID"
+
+#: chess-podium.php
+msgid "FIDE ID"
+msgstr "FIDE ID"
+
+#: chess-podium.php
+msgid "e.g. 1503014"
+msgstr "e.g. 1503014"
+
+#: chess-podium.php
+msgid "Automatic import from official FIDE source: name, FIDE ID, standard Elo."
+msgstr "Automatic import from official FIDE source: name, FIDE ID, standard Elo."
+
+#: chess-podium.php
+msgid "Import from FIDE"
+msgstr "Import from FIDE"
+
+#: chess-podium.php
+msgid "Registered players (%d)"
+msgstr "Registered players (%d)"
+
+#: chess-podium.php
+msgid "No players added yet."
+msgstr "No players added yet."
+
+#: chess-podium.php
+msgid "Rating"
+msgstr "Classement"
+
+#: chess-podium.php
+msgid "Actions"
+msgstr "Actions"
+
+#: chess-podium.php
+msgid "Save"
+msgstr "Enregistrer"
+
+#: chess-podium.php
+msgid "Permanently delete this player?"
+msgstr "Permanently delete this player?"
+
+#: chess-podium.php
+msgid "Delete"
+msgstr "Supprimer"
+
+#: chess-podium.php
+msgid "Cannot delete: already paired in one or more rounds."
+msgstr "Cannot delete: already paired in one or more rounds."
+
+#: chess-podium.php
+msgid "Generate round"
+msgstr "Générer la ronde"
+
+#: chess-podium.php
+msgid "Generate next round"
+msgstr "Generate next round"
+
+#: chess-podium.php
+msgid "Round 1: pairing by rating. Later rounds: basic Swiss (avoids rematch when possible)."
+msgstr "Round 1: pairing by rating. Later rounds: basic Swiss (avoids rematch when possible)."
+
+#: chess-podium.php
+msgid "Generate round and print pairings"
+msgstr "Generate round and print pairings"
+
+#: chess-podium.php
+msgid "Generate next round and open printable pairings in the same panel."
+msgstr "Generate next round and open printable pairings in the same panel."
+
+#: chess-podium.php
+msgid "Cancel current round and remove all pairings/results for this round?"
+msgstr "Cancel current round and remove all pairings/results for this round?"
+
+#: chess-podium.php
+msgid "Rollback current round"
+msgstr "Rollback current round"
+
+#: chess-podium.php
+msgid "Useful for corrections: completely removes the last generated round."
+msgstr "Useful for corrections: completely removes the last generated round."
+
+#: chess-podium.php
+msgid "Current round results"
+msgstr "Current round results"
+
+#: chess-podium.php
+msgid "Edit round results"
+msgstr "Edit round results"
+
+#: chess-podium.php
+msgid "No pairings for the selected round."
+msgstr "No pairings for the selected round."
+
+#: chess-podium.php
+msgid "Edit results for round %d."
+msgstr "Edit results for round %d."
+
+#: chess-podium.php
+msgid "Board"
+msgstr "Table"
+
+#: chess-podium.php
+msgid "Not entered"
+msgstr "Not entered"
+
+#: chess-podium.php
+msgid "Save results"
+msgstr "Save results"
+
+#: chess-podium.php
+msgid "Standings"
+msgstr "Classement"
+
+#: chess-podium.php
+msgid "No standings available."
+msgstr "No standings available."
+
+#: chess-podium.php
+msgid "Pos"
+msgstr "Pos"
+
+#: chess-podium.php
+msgid "Player"
+msgstr "Joueur"
+
+#: chess-podium.php
+msgid "Pts"
+msgstr "Pts"
+
+#: chess-podium.php
+msgid "Buchholz"
+msgstr "Buchholz"
+
+#: chess-podium.php
+msgid "SB"
+msgstr "SB"
+
+#: chess-podium.php
+msgid "Print"
+msgstr "Imprimer"
+
+#: chess-podium.php
+msgid "Print standings"
+msgstr "Print standings"
+
+#: chess-podium.php
+msgid "Opens standings in printable format."
+msgstr "Opens standings in printable format."
+
+#: chess-podium.php
+msgid "Print round pairings"
+msgstr "Print round pairings"
+
+#: chess-podium.php
+msgid "Export tournament data"
+msgstr "Export tournament data"
+
+#: chess-podium.php
+msgid "Export rounds (CSV)"
+msgstr "Export rounds (CSV)"
+
+#: chess-podium.php
+msgid "Export standings (CSV)"
+msgstr "Export standings (CSV)"
+
+#: chess-podium.php
+msgid "Use these files to share tournament data and debug pairing."
+msgstr "Use these files to share tournament data and debug pairing."
+
+#: chess-podium.php
+msgid "No published tournaments. Publish a tournament from Chess Podium to see it here."
+msgstr "No published tournaments. Publish a tournament from Chess Podium to see it here."
+
+#: chess-podium.php
+msgid "%d round"
+msgid_plural "%d rounds"
+msgstr[0] "%d ronde"
+msgstr[1] "%d rondes"
+
+#: chess-podium.php
+msgid "Standings not available."
+msgstr "Standings not available."
+
+#: chess-podium.php
+msgid "in progress"
+msgstr "in progress"
+
+#: chess-podium.php
+msgid "Printable pairings - %s - Round %d"
+msgstr "Printable pairings - %s - Round %d"
+
+#: chess-podium.php
+msgid "Print now"
+msgstr "Print now"
+
+#: chess-podium.php
+msgid "Printable standings - %s"
+msgstr "Printable standings - %s"
+
+#: chess-podium.php
+msgid "Tournaments"
+msgstr "Tournois"
+
+#: includes/class-export-engine.php
+msgid "Home"
+msgstr "Accueil"
+
+#: includes/class-export-engine.php
+msgid "View full standings"
+msgstr "View full standings"
+
+#: includes/class-export-engine.php
+msgid "Pairings round %d"
+msgstr "Pairings round %d"
+
+#: includes/class-export-engine.php
+msgid "No PGN games loaded."
+msgstr "No PGN games loaded."
+
+#: includes/class-export-engine.php
+msgid "Games"
+msgstr "Parties"
+
+#: includes/class-export-engine.php
+msgid "Use the controls below the board to navigate the game."
+msgstr "Use the controls below the board to navigate the game."
+
+#: includes/class-export-engine.php
+msgid "Use the controls or click moves to navigate. Keyboard: ← → previous/next, Home/End start/end."
+msgstr "Use the controls or click moves to navigate. Keyboard: ← → previous/next, Home/End start/end."
+
+#: includes/class-export-engine.php
+msgid "Start"
+msgstr "Start"
+
+#: includes/class-export-engine.php
+msgid "Prev"
+msgstr "Prev"
+
+#: includes/class-export-engine.php
+msgid "Next"
+msgstr "Next"
+
+#: includes/class-export-engine.php
+msgid "End"
+msgstr "End"
+
+#: includes/class-export-engine.php
+msgid "Play"
+msgstr "Play"
+
+#: includes/class-export-engine.php
+msgid "Pause"
+msgstr "Pause"
+
+#: includes/class-export-engine.php
+msgid "Moves"
+msgstr "Moves"
+
+#: includes/class-export-engine.php
+msgid "No photos loaded."
+msgstr "No photos loaded."
+
+#: includes/class-export-engine.php
+msgid "Gallery"
+msgstr "Gallery"
+
+#: includes/class-export-engine.php
+msgid "Close"
+msgstr "Close"
+
+#: includes/class-export-engine.php
+msgid "Previous"
+msgstr "Previous"
+
+#: includes/class-export-engine.php
+msgid "Moves:"
+msgstr "Moves:"
+
+#: includes/class-export-engine.php
+msgid "(no moves)"
+msgstr "(no moves)"
+
+#: includes/class-export-engine.php
+msgid "← Previous"
+msgstr "← Previous"
+
+#: includes/class-export-engine.php
+msgid "Next →"
+msgstr "Next →"
+
+#: includes/class-export-engine.php
+msgid "Generated by %s"
+msgstr "Generated by %s"
+
+#: includes/class-export-engine.php
+msgid "Chess Podium"
+msgstr "Chess Podium"
+
+#: includes/class-export-engine.php
+msgid "Players"
+msgstr "Players"
+
+#: includes/class-export-engine.php
+msgid "Wins"
+msgstr "Wins"
+
+#: includes/class-export-engine.php
+msgid "Draws"
+msgstr "Draws"
+
+#: includes/class-export-engine.php
+msgid "Losses"
+msgstr "Losses"
+
+#: includes/class-export-engine.php
+msgid "Opponents"
+msgstr "Opponents"
+
+#: includes/class-export-engine.php
+msgid "Elo variation"
+msgstr "Elo variation"
+
+#: includes/class-export-engine.php
+msgid "Performance"
+msgstr "Performance"
+
+#: includes/class-export-engine.php
+msgid "Color"
+msgstr "Color"
+
+#: includes/class-chess-podium-widget.php
+msgid "Published tournaments"
+msgstr "Published tournaments"
+
+#: includes/class-chess-podium-widget.php
+msgid "Number of tournaments:"
+msgstr "Number of tournaments:"
+
+#: includes/class-chess-podium-widget.php
+msgid "Show preview image"
+msgstr "Show preview image"
+
+#: includes/class-chess-podium-widget.php
+msgid "View all tournaments"
+msgstr "View all tournaments"
+
+#: chess-podium.php
+msgid "Add to page"
+msgstr "Add to page"
+
+#: chess-podium.php
+msgid "Add tournaments to a page"
+msgstr "Add tournaments to a page"
+
+#: chess-podium.php
+msgid "Use this shortcode to display published tournaments on any page or post:"
+msgstr "Use this shortcode to display published tournaments on any page or post:"
+
+#: chess-podium.php
+msgid "How to add:"
+msgstr "How to add:"
+
+#: chess-podium.php
+msgid "Edit the page or post where you want to show the tournaments."
+msgstr "Edit the page or post where you want to show the tournaments."
+
+#: chess-podium.php
+msgid "Add a \"Shortcode\" block (search for \"Shortcode\" in the block inserter)."
+msgstr "Add a \"Shortcode\" block (search for \"Shortcode\" in the block inserter)."
+
+#: chess-podium.php
+msgid "Paste the shortcode above into the block."
+msgstr "Paste the shortcode above into the block."
+
+#: chess-podium.php
+msgid "Save and publish."
+msgstr "Save and publish."
+
+#: chess-podium.php
+msgid "Create new page"
+msgstr "Create new page"
+
+#: chess-podium.php
+msgid "External tournaments"
+msgstr "External tournaments"
+
+#: chess-podium.php
+msgid "Add tournaments created by other software (e.g. Vega, Swiss Manager) that are already hosted on your site. They will appear on the tournaments page with the same layout as Chess Podium tournaments."
+msgstr "Add tournaments created by other software (e.g. Vega, Swiss Manager) that are already hosted on your site. They will appear on the tournaments page with the same layout as Chess Podium tournaments."
+
+#: chess-podium.php
+msgid "External tournament added."
+msgstr "External tournament added."
+
+#: chess-podium.php
+msgid "External tournament updated."
+msgstr "External tournament updated."
+
+#: chess-podium.php
+msgid "External tournament removed."
+msgstr "External tournament removed."
+
+#: chess-podium.php
+msgid "Error: enter name and URL."
+msgstr "Error: enter name and URL."
+
+#: chess-podium.php
+msgid "Add external tournament"
+msgstr "Add external tournament"
+
+#: chess-podium.php
+msgid "Edit external tournament"
+msgstr "Edit external tournament"
+
+#: chess-podium.php
+msgid "Preview image URL"
+msgstr "Preview image URL"
+
+#: chess-podium.php
+msgid "Preview image"
+msgstr "Preview image"
+
+#: chess-podium.php
+msgid "URL or upload below. Optional. If empty, the default logo will be used."
+msgstr "URL or upload below. Optional. If empty, the default logo will be used."
+
+#: chess-podium.php
+msgid "Optional. If empty, the default logo will be used."
+msgstr "Optional. If empty, the default logo will be used."
+
+#: chess-podium.php
+msgid "Select from Media Library"
+msgstr "Select from Media Library"
+
+#: chess-podium.php
+msgid "Select preview image"
+msgstr "Select preview image"
+
+#: chess-podium.php
+msgid "Use image"
+msgstr "Use image"
+
+#: chess-podium.php
+msgid "Optional. Used for display (e.g. \"5 rounds\")."
+msgstr "Optional. Used for display (e.g. \"5 rounds\")."
+
+#: chess-podium.php
+msgid "Add tournament"
+msgstr "Add tournament"
+
+#: chess-podium.php
+msgid "Update tournament"
+msgstr "Update tournament"
+
+#: chess-podium.php
+msgid "Cancel"
+msgstr "Annuler"
+
+#: chess-podium.php
+msgid "Edit"
+msgstr "Modifier"
+
+#: chess-podium.php
+msgid "External tournaments list"
+msgstr "External tournaments list"
+
+#: chess-podium.php
+msgid "No external tournaments added."
+msgstr "No external tournaments added."
+
+#: chess-podium.php
+msgid "Remove this external tournament?"
+msgstr "Remove this external tournament?"
+
+#: chess-podium.php
+msgid "e.g. Campionato 2024"
+msgstr "e.g. Campionato 2024"
+
+#: chess-podium.php
+msgid "No tournament in progress"
+msgstr "No tournament in progress"
+
+#: chess-podium.php
+msgid "There is no tournament currently being played. Check back later or contact the tournament director."
+msgstr "There is no tournament currently being played. Check back later or contact the tournament director."
+
+#: chess-podium.php
+msgid "Current tournament"
+msgstr "Current tournament"
+
+#: chess-podium.php
+msgid "Current round pairings"
+msgstr "Current round pairings"
+
+#: chess-podium.php
+msgid "No pairings generated yet."
+msgstr "No pairings generated yet."
+
+#: chess-podium.php
+msgid "Live tournament page (for players)"
+msgstr "Live tournament page (for players)"
+
+#: chess-podium.php
+msgid "Share these URLs with players to follow pairings and standings during the tournament. Shows \"No tournament in progress\" when no tournament is being played."
+msgstr "Share these URLs with players to follow pairings and standings during the tournament. Shows \"No tournament in progress\" when no tournament is being played."
+
+#: chess-podium.php
+msgid "— Select country —"
+msgstr "— Select country —"
+
+#: chess-podium.php
+msgid "Nationality"
+msgstr "Nationality"
+
+#: chess-podium.php
+msgid "Required for manual entry. Shown as flag next to player name."
+msgstr "Required for manual entry. Shown as flag next to player name."
+
+#: chess-podium.php
+msgid "Select a nationality for the player."
+msgstr "Select a nationality for the player."
+
+#: chess-podium.php
+msgid "Automatic import from official FIDE source: name, FIDE ID, standard Elo, nationality (when available)."
+msgstr "Automatic import from official FIDE source: name, FIDE ID, standard Elo, nationality (when available)."
+
+#: chess-podium.php
+msgid "Format: name;rating or name;rating;fide_id;country. First row: optional header. Country: ISO 2-letter (e.g. IT, DE)."
+msgstr "Format: name;rating or name;rating;fide_id;country. First row: optional header. Country: ISO 2-letter (e.g. IT, DE)."
+
+#: chess-podium.php
+msgid "Player limit reached. Upgrade to Chess Podium Pro for unlimited players."
+msgstr "Player limit reached. Upgrade to Chess Podium Pro for unlimited players."
+
+#: chess-podium.php
+msgid "Chess Podium License"
+msgstr "Chess Podium License"
+
+#: chess-podium.php
+msgid "License saved. Validating..."
+msgstr "License saved. Validating..."
+
+#: chess-podium.php
+msgid "License removed."
+msgstr "License removed."
+
+#: chess-podium.php
+msgid "Chess Podium Pro"
+msgstr "Chess Podium Pro"
+
+#: chess-podium.php
+msgid "Unlimited players. License active."
+msgstr "Unlimited players. License active."
+
+#: chess-podium.php
+msgid "Free version"
+msgstr "Free version"
+
+#: chess-podium.php
+msgid "Limit: %d players per tournament."
+msgstr "Limit: %d players per tournament."
+
+#: chess-podium.php
+msgid "Upgrade to Pro for unlimited players, priority support, and more. €79/year."
+msgstr "Upgrade to Pro for unlimited players, priority support, and more. €79/year."
+
+#: chess-podium.php
+msgid "License key"
+msgstr "License key"
+
+#: chess-podium.php
+msgid "Save license"
+msgstr "Save license"
+
+#: chess-podium.php
+msgid "Remove license"
+msgstr "Remove license"
+
+#: chess-podium.php
+msgid "Remove license?"
+msgstr "Remove license?"
+
+#: chess-podium.php
+msgid "Enter the license key you received after purchasing Chess Podium Pro. Validation runs periodically."
+msgstr "Enter the license key you received after purchasing Chess Podium Pro. Validation runs periodically."
+
+#: chess-podium.php
+msgid "License"
+msgstr "Licence"
+
+#: chess-podium.php
+msgid "players"
+msgstr "players"
+
+#: chess-podium.php
+msgid "Import disabled: player limit reached."
+msgstr "Import disabled: player limit reached."
+
+#: front-page.php, page-features.php
+msgid "View live tournament page"
+msgstr "View live tournament page"
+
+#: page-features.php
+msgid "View live example"
+msgstr "View live example"
+
+#: page-features.php
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: page-features.php
+msgid "Everything you need to run chess tournaments from your WordPress site."
+msgstr "Everything you need to run chess tournaments from your WordPress site."
+
+#: page-features.php
+msgid "Tournament Management"
+msgstr "Tournament Management"
+
+#: page-features.php
+msgid "Create tournaments, add players, manage rounds and results—all in one intuitive panel."
+msgstr "Create tournaments, add players, manage rounds and results—all in one intuitive panel."
+
+#: page-features.php
+msgid "Swiss & Round Robin"
+msgstr "Swiss & Round Robin"
+
+#: page-features.php
+msgid "Swiss pairing by score or Round Robin where everyone plays everyone. Configurable BYE points."
+msgstr "Swiss pairing by score or Round Robin where everyone plays everyone. Configurable BYE points."
+
+#: page-features.php
+msgid "Public Pages"
+msgstr "Public Pages"
+
+#: page-features.php
+msgid "Publish standings, pairings, and results instantly. Share a live URL with players during the event."
+msgstr "Publish standings, pairings, and results instantly. Share a live URL with players during the event."
+
+#: page-features.php
+msgid "Standings & Tiebreakers"
+msgstr "Standings & Tiebreakers"
+
+#: page-features.php
+msgid "Automatic standings with Buchholz, Sonneborn-Berger, rating, and direct encounter tiebreakers."
+msgstr "Automatic standings with Buchholz, Sonneborn-Berger, rating, and direct encounter tiebreakers."
+
+#: page-features.php
+msgid "Printable Pairings"
+msgstr "Printable Pairings"
+
+#: page-features.php
+msgid "Generate a round and print the pairing sheet in one click—ready to post on the wall."
+msgstr "Generate a round and print the pairing sheet in one click—ready to post on the wall."
+
+#: page-features.php
+msgid "Round Rollback"
+msgstr "Round Rollback"
+
+#: page-features.php
+msgid "Made a mistake? Undo the current round and regenerate. No data loss."
+msgstr "Made a mistake? Undo the current round and regenerate. No data loss."
+
+#: page-features.php
+msgid "CSV Export & Import"
+msgstr "CSV Export & Import"
+
+#: page-features.php
+msgid "Export pairings and standings to CSV. Bulk import players from a spreadsheet."
+msgstr "Export pairings and standings to CSV. Bulk import players from a spreadsheet."
+
+#: page-features.php
+msgid "FIDE Import"
+msgstr "FIDE Import"
+
+#: page-features.php
+msgid "Enter a FIDE ID to auto-import name, rating, and nationality from the official database."
+msgstr "Enter a FIDE ID to auto-import name, rating, and nationality from the official database."
+
+#: page-features.php
+msgid "Archive Widget"
+msgstr "Archive Widget"
+
+#: page-features.php
+msgid "Display your club's tournament history on any page with a shortcode or widget."
+msgstr "Display your club's tournament history on any page with a shortcode or widget."
+
+#: page-features.php
+msgid "External Tournaments"
+msgstr "External Tournaments"
+
+#: page-features.php
+msgid "Add tournaments from Vega, Swiss Manager, or other software. Unified display on your site."
+msgstr "Add tournaments from Vega, Swiss Manager, or other software. Unified display on your site."
+
+#: page-features.php
+msgid "PGN Games (Pro)"
+msgstr "PGN Games (Pro)"
+
+#: page-features.php
+msgid "Upload PGN files and display games with an interactive board viewer. Share with players."
+msgstr "Upload PGN files and display games with an interactive board viewer. Share with players."
+
+#: page-features.php
+msgid "Photo Gallery (Pro)"
+msgstr "Photo Gallery (Pro)"
+
+#: page-features.php
+msgid "Add a photo gallery to each tournament. Perfect for event memories and club archives."
+msgstr "Add a photo gallery to each tournament. Perfect for event memories and club archives."
+
+#: page-features.php
+msgid "Export to Folder (Pro)"
+msgstr "Export to Folder (Pro)"
+
+#: page-features.php
+msgid "Generate a complete HTML export: standings, rounds, games, and gallery in one package."
+msgstr "Generate a complete HTML export: standings, rounds, games, and gallery in one package."
+
+#: page-faq.php
+msgid "Frequently Asked Questions"
+msgstr "Frequently Asked Questions"
+
+#: page-faq.php
+msgid "Common questions about Chess Podium and tournament management."
+msgstr "Common questions about Chess Podium and tournament management."
+
+#: page-faq.php
+msgid "What is Chess Podium?"
+msgstr "What is Chess Podium?"
+
+#: page-faq.php
+msgid "Chess Podium is a WordPress plugin that lets you create and manage chess tournaments directly from your website. Add players, generate pairings, enter results, and publish standings—all without spreadsheets."
+msgstr "Chess Podium is a WordPress plugin that lets you create and manage chess tournaments directly from your website. Add players, generate pairings, enter results, and publish standings—all without spreadsheets."
+
+#: page-faq.php
+msgid "Do I need WordPress?"
+msgstr "Do I need WordPress?"
+
+#: page-faq.php
+msgid "Yes. Chess Podium runs as a WordPress plugin. You need a WordPress site (self-hosted or WordPress.com Business plan) with PHP 7.4 or higher."
+msgstr "Yes. Chess Podium runs as a WordPress plugin. You need a WordPress site (self-hosted or WordPress.com Business plan) with PHP 7.4 or higher."
+
+#: page-faq.php
+msgid "Is it really free?"
+msgstr "Is it really free?"
+
+#: page-faq.php
+msgid "Yes. The free version lets you run full tournaments with up to 10 players per event. Pro (€79/year) removes the player limit and adds PGN games, photo galleries, and advanced exports."
+msgstr "Yes. The free version lets you run full tournaments with up to 10 players per event. Pro (€79/year) removes the player limit and adds PGN games, photo galleries, and advanced exports."
+
+#: page-faq.php
+msgid "How do I install it?"
+msgstr "How do I install it?"
+
+#: page-faq.php
+msgid "Download the plugin from the Download page, then in WordPress go to Plugins → Add New → Upload Plugin. Choose the ZIP file, install, and activate. After activation, go to Settings → Permalinks and click Save."
+msgstr "Download the plugin from the Download page, then in WordPress go to Plugins → Add New → Upload Plugin. Choose the ZIP file, install, and activate. After activation, go to Settings → Permalinks and click Save."
+
+#: page-faq.php
+msgid "How many players can I add?"
+msgstr "How many players can I add?"
+
+#: page-faq.php
+msgid "Free: up to 10 players per tournament. Pro: unlimited players."
+msgstr "Free: up to 10 players per tournament. Pro: unlimited players."
+
+#: page-faq.php
+msgid "Can I edit or delete a player after adding them?"
+msgstr "Can I edit or delete a player after adding them?"
+
+#: page-faq.php
+msgid "Yes. You can edit name, rating, and nationality at any time. You can delete a player only if they have not yet been paired in any round."
+msgstr "Yes. You can edit name, rating, and nationality at any time. You can delete a player only if they have not yet been paired in any round."
+
+#: page-faq.php
+msgid "What if I enter a wrong result or make a mistake?"
+msgstr "What if I enter a wrong result or make a mistake?"
+
+#: page-faq.php
+msgid "Use \"Undo current round\" to cancel the last generated round. You can then correct results and regenerate. No data is lost."
+msgstr "Use \"Undo current round\" to cancel the last generated round. You can then correct results and regenerate. No data is lost."
+
+#: page-faq.php
+msgid "How does Swiss pairing work?"
+msgstr "How does Swiss pairing work?"
+
+#: page-faq.php
+msgid "Players with the same score are paired against each other. Chess Podium generates pairings automatically. The engine is practical for club events; FIDE-advanced mode is on the roadmap."
+msgstr "Players with the same score are paired against each other. Chess Podium generates pairings automatically. The engine is practical for club events; FIDE-advanced mode is on the roadmap."
+
+#: page-faq.php
+msgid "What is Round Robin?"
+msgstr "What is Round Robin?"
+
+#: page-faq.php
+msgid "Round Robin means everyone plays everyone. Choose this when creating the tournament if you have a small group (typically under 12 players) and want all possible games."
+msgstr "Round Robin means everyone plays everyone. Choose this when creating the tournament if you have a small group (typically under 12 players) and want all possible games."
+
+#: page-faq.php
+msgid "What tiebreakers are supported?"
+msgstr "What tiebreakers are supported?"
+
+#: page-faq.php
+msgid "Buchholz, Sonneborn-Berger, rating, and direct encounter. You can set the order when creating the tournament."
+msgstr "Buchholz, Sonneborn-Berger, rating, and direct encounter. You can set the order when creating the tournament."
+
+#: page-faq.php
+msgid "How do players see pairings and standings?"
+msgstr "How do players see pairings and standings?"
+
+#: page-faq.php
+msgid "Share the live tournament URL (e.g. yoursite.com/torneo/). Players can view current standings, round pairings, and results on any device. No login required."
+msgstr "Share the live tournament URL (e.g. yoursite.com/torneo/). Players can view current standings, round pairings, and results on any device. No login required."
+
+#: page-faq.php
+msgid "Can I import players from Excel or CSV?"
+msgstr "Can I import players from Excel or CSV?"
+
+#: page-faq.php
+msgid "Yes. Use the bulk CSV import. Format: name;rating or name;rating;fide_id;country. The first row can be a header."
+msgstr "Yes. Use the bulk CSV import. Format: name;rating or name;rating;fide_id;country. The first row can be a header."
+
+#: page-faq.php
+msgid "Can I import players from FIDE?"
+msgstr "Can I import players from FIDE?"
+
+#: page-faq.php
+msgid "Yes. Enter a FIDE ID and Chess Podium fetches name, rating, and nationality from the official FIDE database."
+msgstr "Yes. Enter a FIDE ID and Chess Podium fetches name, rating, and nationality from the official FIDE database."
+
+#: page-faq.php
+msgid "Can I show past tournaments on my homepage?"
+msgstr "Can I show past tournaments on my homepage?"
+
+#: page-faq.php
+msgid "Yes. Use the archive widget or shortcode to display your club's tournament history on any page."
+msgstr "Yes. Use the archive widget or shortcode to display your club's tournament history on any page."
+
+#: page-faq.php
+msgid "Can I add tournaments from other software (Vega, Swiss Manager)?"
+msgstr "Can I add tournaments from other software (Vega, Swiss Manager)?"
+
+#: page-faq.php
+msgid "Yes. If the tournament is already published elsewhere, you can add it as an \"external tournament\" with a link. It will appear in the same layout as Chess Podium tournaments."
+msgstr "Yes. If the tournament is already published elsewhere, you can add it as an \"external tournament\" with a link. It will appear in the same layout as Chess Podium tournaments."
+
+#: page-faq.php
+msgid "How does the Pro license work?"
+msgstr "How does the Pro license work?"
+
+#: page-faq.php
+msgid "Pro is €79/year. After purchase you receive a license key by email. Enter it in Chess Podium → License. The license is validated periodically. One license per site."
+msgstr "Pro is €79/year. After purchase you receive a license key by email. Enter it in Chess Podium → License. The license is validated periodically. One license per site."
+
+#: page-faq.php
+msgid "Can I use Pro on multiple sites?"
+msgstr "Can I use Pro on multiple sites?"
+
+#: page-faq.php
+msgid "Each site needs its own license. Contact us for multi-site or club federation pricing."
+msgstr "Each site needs its own license. Contact us for multi-site or club federation pricing."
+
+#: page-faq.php
+msgid "Will there be a desktop app?"
+msgstr "Will there be a desktop app?"
+
+#: page-faq.php
+msgid "Yes. Chess Podium Desktop for Windows and macOS is planned for the future."
+msgstr "Yes. Chess Podium Desktop for Windows and macOS is planned for the future."
+
+#: page-faq.php
+msgid "Does it work on mobile?"
+msgstr "Does it work on mobile?"
+
+#: page-faq.php
+msgid "Yes. The admin panel and public tournament pages are responsive. Players can follow pairings and standings on their phone."
+msgstr "Yes. The admin panel and public tournament pages are responsive. Players can follow pairings and standings on their phone."
+
+#: page-faq.php
+msgid "Can I print the pairing sheet?"
+msgstr "Can I print the pairing sheet?"
+
+#: page-faq.php
+msgid "Yes. Use \"Generate round and print pairings\" to create a round and open a printable sheet ready to post on the wall."
+msgstr "Yes. Use \"Generate round and print pairings\" to create a round and open a printable sheet ready to post on the wall."
+
+#: chess-podium.php
+msgid "License saved and validated. Pro active."
+msgstr "License saved and validated. Pro active."
+
+#: chess-podium.php
+msgid "This site's domain:"
+msgstr "This site's domain:"
+
+#: chess-podium.php
+msgid "Enter the license key you received after purchasing Chess Podium Pro. One license per domain—it will be locked to this site on first activation."
+msgstr "Enter the license key you received after purchasing Chess Podium Pro. One license per domain—it will be locked to this site on first activation."
+
+#: chess-podium.php
+msgid "Invalid license key. Check the key and try again."
+msgstr "Invalid license key. Check the key and try again."
+
+#: chess-podium.php
+msgid "Email does not match the license. Use the exact email used when purchasing."
+msgstr "Email does not match the license. Use the exact email used when purchasing."
+
+#: chess-podium.php
+msgid "This license is already activated for another site. One license per domain."
+msgstr "This license is already activated for another site. One license per domain."
+
+#: chess-podium.php
+msgid "Allowed domain: %s"
+msgstr "Allowed domain: %s"
+
+#: chess-podium.php
+msgid "License has expired. Renew your subscription."
+msgstr "License has expired. Renew your subscription."
+
+#: chess-podium.php
+msgid "License is inactive or revoked."
+msgstr "License is inactive or revoked."
+
+#: chess-podium.php
+msgid "Could not reach the license server. Check your connection and try again."
+msgstr "Could not reach the license server. Check your connection and try again."
+
+#: chess-podium.php
+msgid "License server error."
+msgstr "License server error."
+
+#: chess-podium.php
+msgid "API returned HTTP %d"
+msgstr "API returned HTTP %d"
+
+#: chess-podium.php
+msgid "Invalid response from license server."
+msgstr "Invalid response from license server."
+
+#: chess-podium.php
+msgid "Validation failed. Please check your license key and email."
+msgstr "Validation failed. Please check your license key and email."
+
+#: includes/class-registration.php
+msgid "Invalid name or email."
+msgstr "Invalid name or email."
+
+#: includes/class-registration.php
+msgid "Online registration is a Pro feature."
+msgstr "Online registration is a Pro feature."
+
+#: includes/class-registration.php
+msgid "Registration is not open for this tournament."
+msgstr "Registration is not open for this tournament."
+
+#: includes/class-registration.php
+msgid "Registration fee not configured."
+msgstr "Registration fee not configured."
+
+#: includes/class-registration.php
+msgid "Tournament is full."
+msgstr "Tournament is full."
+
+#: includes/class-registration.php
+msgid "Invalid payment method."
+msgstr "Invalid payment method."
+
+#: includes/class-registration.php
+msgid "Stripe is not configured. Contact the tournament organizer."
+msgstr "Stripe is not configured. Contact the tournament organizer."
+
+#: includes/class-registration.php
+msgid "Tournament registration"
+msgstr "Tournament registration"
+
+#: includes/class-registration.php
+msgid "Stripe error."
+msgstr "Stripe error."
+
+#: includes/class-registration.php
+msgid "PayPal is not configured. Contact the tournament organizer."
+msgstr "PayPal is not configured. Contact the tournament organizer."
+
+#: includes/class-registration.php
+msgid "PayPal connection error:"
+msgstr "PayPal connection error:"
+
+#: includes/class-registration.php
+msgid "PayPal authentication failed."
+msgstr "PayPal authentication failed."
+
+#: includes/class-registration.php
+msgid "Wrong Client ID or Secret. Check that you use Live credentials with Live mode, or Sandbox credentials with Sandbox mode."
+msgstr "Wrong Client ID or Secret. Check that you use Live credentials with Live mode, or Sandbox credentials with Sandbox mode."
+
+#: includes/class-registration.php
+msgid "PayPal did not return an access token."
+msgstr "PayPal did not return an access token."
+
+#: includes/class-registration.php
+msgid "PayPal order creation failed."
+msgstr "PayPal order creation failed."
+
+#: includes/class-registration.php
+msgid "PayPal did not return a checkout URL."
+msgstr "PayPal did not return a checkout URL."
+
+#: includes/class-registration.php
+msgid "Tournament"
+msgstr "Tournament"
+
+#: includes/class-registration.php
+msgid "[%s] Registration confirmed"
+msgstr "[%s] Registration confirmed"
+
+#: includes/class-registration.php
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your registration for %s has been confirmed.\n"
+"\n"
+"You can follow the tournament at: %s\n"
+"\n"
+"Good luck!"
+msgstr ""
+"Ciao %s,\n"
+"\n"
+"La tua iscrizione a %s è stata confermata.\n"
+"\n"
+"Puoi seguire il torneo su: %s\n"
+"\n"
+"Buona fortuna!"
+
+#: includes/class-registration.php
+msgid "Online registration is a Pro feature. Upgrade to Chess Podium Pro to accept registrations with Stripe and PayPal."
+msgstr "Online registration is a Pro feature. Upgrade to Chess Podium Pro to accept registrations with Stripe and PayPal."
+
+#: includes/class-registration.php
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: includes/class-registration.php
+msgid "Specify tournament ID: [chess_podium_registration id=\"1\"]"
+msgstr "Specify tournament ID: [chess_podium_registration id=\"1\"]"
+
+#: includes/class-registration.php
+msgid "Tournament not found."
+msgstr "Tournament not found."
+
+#: includes/class-registration.php
+msgid "Online registration is not configured. Contact the organizer."
+msgstr "Online registration is not configured. Contact the organizer."
+
+#: includes/class-registration.php
+msgid "Registration confirmed! Check your email for details."
+msgstr "Inscription confirmée ! Consultez votre e-mail."
+
+#: includes/class-registration.php
+msgid "This tournament is full. Registration is closed."
+msgstr "This tournament is full. Registration is closed."
+
+#: includes/class-registration.php
+msgid "Registration fee: %s %s"
+msgstr "Registration fee: %s %s"
+
+#: includes/class-registration.php
+msgid "Pay with Stripe"
+msgstr "Payer avec Stripe"
+
+#: includes/class-registration.php
+msgid "Pay with PayPal"
+msgstr "Payer avec PayPal"
+
+#: includes/class-registration.php
+msgid "Online registration is a Pro feature. Upgrade to Chess Podium Pro."
+msgstr "Online registration is a Pro feature. Upgrade to Chess Podium Pro."
+
+#: includes/class-registration.php
+msgid "Settings saved."
+msgstr "Paramètres enregistrés."
+
+#: includes/class-registration.php
+msgid "Registration payments"
+msgstr "Registration payments"
+
+#: includes/class-registration.php
+msgid "Configure Stripe and/or PayPal so that players can pay the registration fee online. You can enable one or both. Enable registration per tournament in the tournament edit page."
+msgstr "Configure Stripe and/or PayPal so that players can pay the registration fee online. You can enable one or both. Enable registration per tournament in the tournament edit page."
+
+#: includes/class-registration.php
+msgid "How it works"
+msgstr "How it works"
+
+#: includes/class-registration.php
+msgid "You need a free account on Stripe and/or PayPal. They handle the payment securely. The money goes to your club's account. Chess Podium only needs a few codes (keys) to connect your site to these services."
+msgstr "You need a free account on Stripe and/or PayPal. They handle the payment securely. The money goes to your club's account. Chess Podium only needs a few codes (keys) to connect your site to these services."
+
+#: includes/class-registration.php
+msgid "How to get Stripe keys (step by step)"
+msgstr "How to get Stripe keys (step by step)"
+
+#: includes/class-registration.php
+msgid "Go to stripe.com and click \"Start now\" to create a free account."
+msgstr "Go to stripe.com and click \"Start now\" to create a free account."
+
+#: includes/class-registration.php
+msgid "Complete the registration with your club's details (name, address, bank account for receiving payments)."
+msgstr "Complete the registration with your club's details (name, address, bank account for receiving payments)."
+
+#: includes/class-registration.php
+msgid "In the Stripe dashboard, click \"Developers\" in the top menu, then \"API keys\"."
+msgstr "In the Stripe dashboard, click \"Developers\" in the top menu, then \"API keys\"."
+
+#: includes/class-registration.php
+msgid "Under \"Standard keys\", copy the \"Secret key\" (starts with sk_live_ or sk_test_) and paste it below."
+msgstr "Under \"Standard keys\", copy the \"Secret key\" (starts with sk_live_ or sk_test_) and paste it below."
+
+#: includes/class-registration.php
+msgid "For the webhook: click \"Developers\" → \"Webhooks\" → \"Add endpoint\"."
+msgstr "For the webhook: click \"Developers\" → \"Webhooks\" → \"Add endpoint\"."
+
+#: includes/class-registration.php
+msgid "Endpoint URL: paste this address exactly:"
+msgstr "Endpoint URL: paste this address exactly:"
+
+#: includes/class-registration.php
+msgid "Click \"Select events\" and choose only \"checkout.session.completed\", then \"Add endpoint\"."
+msgstr "Click \"Select events\" and choose only \"checkout.session.completed\", then \"Add endpoint\"."
+
+#: includes/class-registration.php
+msgid "After creating the webhook, click on it and reveal the \"Signing secret\" (starts with whsec_). Copy it and paste it in the \"Webhook secret\" field below."
+msgstr "After creating the webhook, click on it and reveal the \"Signing secret\" (starts with whsec_). Copy it and paste it in the \"Webhook secret\" field below."
+
+#: includes/class-registration.php
+msgid "Test mode:"
+msgstr "Test mode:"
+
+#: includes/class-registration.php
+msgid "Use keys starting with sk_test_ and whsec_ from a test webhook to try without real payments. Switch to live keys when ready."
+msgstr "Use keys starting with sk_test_ and whsec_ from a test webhook to try without real payments. Switch to live keys when ready."
+
+#: includes/class-registration.php
+msgid "Webhook not working?"
+msgstr "Webhook not working?"
+
+#: includes/class-registration.php
+msgid "Go to Settings → Permalinks and click Save. This refreshes the site URLs so the webhook can receive Stripe notifications."
+msgstr "Go to Settings → Permalinks and click Save. This refreshes the site URLs so the webhook can receive Stripe notifications."
+
+#: includes/class-registration.php
+msgid "Secret key"
+msgstr "Secret key"
+
+#: includes/class-registration.php
+msgid "From Stripe → Developers → API keys. Starts with sk_live_ or sk_test_."
+msgstr "From Stripe → Developers → API keys. Starts with sk_live_ or sk_test_."
+
+#: includes/class-registration.php
+msgid "Webhook secret"
+msgstr "Webhook secret"
+
+#: includes/class-registration.php
+msgid "Webhook URL:"
+msgstr "Webhook URL:"
+
+#: includes/class-registration.php
+msgid "Event: checkout.session.completed. From Developers → Webhooks → your endpoint → Signing secret."
+msgstr "Event: checkout.session.completed. From Developers → Webhooks → your endpoint → Signing secret."
+
+#: includes/class-registration.php
+msgid "How to get PayPal keys (step by step)"
+msgstr "How to get PayPal keys (step by step)"
+
+#: includes/class-registration.php
+msgid "Go to developer.paypal.com and log in with your PayPal account (or create one)."
+msgstr "Go to developer.paypal.com and log in with your PayPal account (or create one)."
+
+#: includes/class-registration.php
+msgid "In the top menu, click \"Apps & Credentials\"."
+msgstr "In the top menu, click \"Apps & Credentials\"."
+
+#: includes/class-registration.php
+msgid "Under \"REST API apps\", click \"Create App\". Give it a name (e.g. \"Chess Club Registration\") and click Create."
+msgstr "Under \"REST API apps\", click \"Create App\". Give it a name (e.g. \"Chess Club Registration\") and click Create."
+
+#: includes/class-registration.php
+msgid "You will see \"Client ID\" and \"Secret\". Click \"Show\" next to Secret to reveal it."
+msgstr "You will see \"Client ID\" and \"Secret\". Click \"Show\" next to Secret to reveal it."
+
+#: includes/class-registration.php
+msgid "Copy the Client ID and paste it in the field below."
+msgstr "Copy the Client ID and paste it in the field below."
+
+#: includes/class-registration.php
+msgid "Copy the Secret and paste it in the Secret field below."
+msgstr "Copy the Secret and paste it in the Secret field below."
+
+#: includes/class-registration.php
+msgid "Choose \"Sandbox\" to test with fake payments, or \"Live\" when you are ready to accept real payments."
+msgstr "Choose \"Sandbox\" to test with fake payments, or \"Live\" when you are ready to accept real payments."
+
+#: includes/class-registration.php
+msgid "Sandbox vs Live:"
+msgstr "Sandbox vs Live:"
+
+#: includes/class-registration.php
+msgid "Sandbox uses test credentials (from the Sandbox tab) for practice. Live uses your real PayPal business account. For Live, your PayPal account must be verified."
+msgstr "Sandbox uses test credentials (from the Sandbox tab) for practice. Live uses your real PayPal business account. For Live, your PayPal account must be verified."
+
+#: includes/class-registration.php
+msgid "Button not working?"
+msgstr "Button not working?"
+
+#: includes/class-registration.php
+msgid "Ensure Mode matches your credentials: if you copied Client ID and Secret from the Live tab in PayPal, set Mode to Live. If from Sandbox tab, set Mode to Sandbox. Using Live credentials with Sandbox mode (or vice versa) will fail."
+msgstr "Ensure Mode matches your credentials: if you copied Client ID and Secret from the Live tab in PayPal, set Mode to Live. If from Sandbox tab, set Mode to Sandbox. Using Live credentials with Sandbox mode (or vice versa) will fail."
+
+#: includes/class-registration.php
+msgid "Client ID"
+msgstr "Client ID"
+
+#: includes/class-registration.php
+msgid "From developer.paypal.com → Apps & Credentials → your app."
+msgstr "From developer.paypal.com → Apps & Credentials → your app."
+
+#: includes/class-registration.php
+msgid "Click \"Show\" next to Secret in your PayPal app, then copy it here."
+msgstr "Click \"Show\" next to Secret in your PayPal app, then copy it here."
+
+#: includes/class-registration.php
+msgid "Sandbox (test)"
+msgstr "Sandbox (test)"
+
+#: includes/class-registration.php
+msgid "Live (real payments)"
+msgstr "Live (real payments)"
+
+#: includes/class-registration.php
+msgid "Use Sandbox to test. Switch to Live when ready to accept real payments."
+msgstr "Use Sandbox to test. Switch to Live when ready to accept real payments."
+
+#: page-features.php
+msgid "Pro only"
+msgstr "Pro only"
+
+#: page-features.php
+msgid "Monetize your tournaments with online registration"
+msgstr "Monetize your tournaments with online registration"
+
+#: page-features.php
+msgid "Let players register and pay online with Stripe or PayPal. Set the entry fee per tournament, collect payments automatically, and add players to the list—no manual work. Perfect for chess clubs that want to monetize events and cover costs."
+msgstr "Let players register and pay online with Stripe or PayPal. Set the entry fee per tournament, collect payments automatically, and add players to the list—no manual work. Perfect for chess clubs that want to monetize events and cover costs."
+
+#: page-features.php
+msgid "Public registration page with shortcode"
+msgstr "Public registration page with shortcode"
+
+#: page-features.php
+msgid "Stripe and PayPal integration"
+msgstr "Stripe and PayPal integration"
+
+#: page-features.php
+msgid "Automatic player creation on payment"
+msgstr "Automatic player creation on payment"
+
+#: page-features.php
+msgid "Email confirmation to players"
+msgstr "Email confirmation to players"
+
+#: page-features.php
+msgid "Upgrade to Pro"
+msgstr "Upgrade to Pro"
+
+#: page-features.php
+msgid "Online registration with payment"
+msgstr "Online registration with payment"
+
+#: page-features.php
+msgid "Public registration page with Stripe and PayPal. Players pay the fee and are added automatically. Email confirmation included."
+msgstr "Public registration page with Stripe and PayPal. Players pay the fee and are added automatically. Email confirmation included."
+
+#: page-faq.php
+msgid "Can I charge for tournament registration?"
+msgstr "Can I charge for tournament registration?"
+
+#: page-faq.php
+msgid "Yes, with Pro. Online registration lets you set an entry fee per tournament. Players register and pay via Stripe or PayPal; they are added to the tournament automatically and receive an email confirmation. Ideal for chess clubs that want to monetize events and cover costs."
+msgstr "Yes, with Pro. Online registration lets you set an entry fee per tournament. Players register and pay via Stripe or PayPal; they are added to the tournament automatically and receive an email confirmation. Ideal for chess clubs that want to monetize events and cover costs."
+
+#: page-faq.php
+msgid "Pro is €79/year. After purchase you receive a license key by email. Enter it in Chess Podium → License. The license is locked to your domain on first activation. One license per domain."
+msgstr "Pro is €79/year. After purchase you receive a license key by email. Enter it in Chess Podium → License. The license is locked to your domain on first activation. One license per domain."
+
+#: page-faq.php
+msgid "No. Each license is valid for one domain only. On first activation, the license locks to that site. If you migrate your site, contact us to reset the domain."
+msgstr "No. Each license is valid for one domain only. On first activation, the license locks to that site. If you migrate your site, contact us to reset the domain."
+
+#: page-faq.php
+msgid "Yes. The free version lets you run full tournaments with up to 10 players per event. Pro (€79/year) removes the player limit, adds online registration with Stripe and PayPal to monetize tournaments, plus PGN games, photo galleries, and advanced exports."
+msgstr "Yes. The free version lets you run full tournaments with up to 10 players per event. Pro (€79/year) removes the player limit, adds online registration with Stripe and PayPal to monetize tournaments, plus PGN games, photo galleries, and advanced exports."
+
+#: page-pricing.php
+msgid "Online registration with Stripe & PayPal"
+msgstr "Online registration with Stripe & PayPal"
+
+#: page-pricing.php
+msgid "Monetize tournaments: players pay and register automatically"
+msgstr "Monetize tournaments: players pay and register automatically"
+
+#: page-pricing.php
+msgid "Processing..."
+msgstr "Traitement en cours..."
+
+#: page-pricing.php
+msgid "An error occurred."
+msgstr "Une erreur s'est produite."
+
+#: page-pricing.php
+msgid "Buy Pro — €79/year"
+msgstr "Acheter Pro — 79€/an"
+
+#: chess-podium.php
+msgid "Create a page and add this shortcode. Configure Stripe and/or PayPal in Chess Podium → Registration payments."
+msgstr "Create a page and add this shortcode. Configure Stripe and/or PayPal in Chess Podium → Registration payments."
+
+#: chess-podium.php
+msgid "Online registration with Stripe and PayPal is a Pro feature. Upgrade to Chess Podium Pro to enable it."
+msgstr "Online registration with Stripe and PayPal is a Pro feature. Upgrade to Chess Podium Pro to enable it."
+
+#: chess-podium.php (Chess Podium Pro 0.4.0)
+msgid "Bye & Withdrawals (next round)"
+msgstr "Bye et abandons (prochaine ronde)"
+
+#: chess-podium.php
+msgid "Set player availability for round"
+msgstr "Définir la disponibilité des joueurs pour la ronde"
+
+#: chess-podium.php
+msgid "Bye requested = 0.5 pts. Withdrawn = excluded from pairings."
+msgstr "Bye demandé = 0,5 pt. Abandon = exclu des appariements."
+
+#: chess-podium.php
+msgid "Present"
+msgstr "Présent"
+
+#: chess-podium.php
+msgid "Bye 0.5 pts"
+msgstr "Bye 0,5 pt"
+
+#: chess-podium.php
+msgid "Withdrawn"
+msgstr "Abandon"
+
+#: chess-podium.php
+msgid "Status for round"
+msgstr "Statut pour la ronde"
+
+#: chess-podium.php
+msgid "Save statuses"
+msgstr "Enregistrer les statuts"
+
+#: chess-podium.php
+msgid "Player statuses saved."
+msgstr "Statuts des joueurs enregistrés."
+
+#: chess-podium.php
+msgid "Unable to save player statuses."
+msgstr "Impossible d'enregistrer les statuts des joueurs."
+
+#: chess-podium.php
+msgid "Export FIDE TRF"
+msgstr "Exporter FIDE TRF"
+
+#: chess-podium.php
+msgid "Use these files to share tournament data and debug pairing. TRF format for FIDE rating submission."
+msgstr "Utilisez ces fichiers pour partager les données du tournoi et déboguer les appariements. Format TRF pour soumission FIDE."
+
+#: chess-podium.php
+msgid "Tournament brochure (Bando)"
+msgstr "Règlement du tournoi"
+
+#: chess-podium.php
+msgid "Venue name"
+msgstr "Nom du lieu"
+
+#: chess-podium.php
+msgid "Venue address"
+msgstr "Adresse du lieu"
+
+#: chess-podium.php
+msgid "Map URL (embed)"
+msgstr "URL de la carte (embed)"
+
+#: chess-podium.php
+msgid "OpenStreetMap or Google Maps embed URL."
+msgstr "URL d'embed OpenStreetMap ou Google Maps."
+
+#: chess-podium.php
+msgid "Start date"
+msgstr "Date de début"
+
+#: chess-podium.php
+msgid "Used to auto-generate round dates (weekly)."
+msgstr "Utilisée pour générer automatiquement les dates des rondes (hebdomadaires)."
+
+#: chess-podium.php
+msgid "Prize table"
+msgstr "Tableau des prix"
+
+#: chess-podium.php
+msgid "Position"
+msgstr "Position"
+
+#: chess-podium.php
+msgid "Prize"
+msgstr "Prix"
+
+#: chess-podium.php
+msgid "Add row"
+msgstr "Ajouter une ligne"
+
+#: chess-podium.php
+msgid "Add contact"
+msgstr "Ajouter un contact"
+
+#: chess-podium.php
+msgid "Save brochure"
+msgstr "Enregistrer le règlement"
+
+#: chess-podium.php
+msgid "Download HTML"
+msgstr "Télécharger HTML"
+
+#: chess-podium.php
+msgid "Download PDF"
+msgstr "Télécharger PDF"
+
+#: chess-podium.php
+msgid "PDF requires Composer: run \"composer install\" in the plugin directory. Otherwise use HTML and print to PDF."
+msgstr "Le PDF nécessite Composer : exécutez \"composer install\" dans le répertoire du plugin. Sinon utilisez HTML et imprimez en PDF."
+
+#: chess-podium.php
+msgid "Live mode (projection)"
+msgstr "Mode live (projection)"
+
+#: chess-podium.php
+msgid "Open Live Dashboard"
+msgstr "Ouvrir le tableau de bord live"
+
+#: chess-podium.php
+msgid "Full-screen page for projection in the playing hall. Auto-refreshes every 10 seconds when results are updated."
+msgstr "Page plein écran pour projection en salle. Actualisation automatique toutes les 10 secondes quand les résultats sont mis à jour."
+
+#: chess-podium.php
+msgid "PGN Live (URL)"
+msgstr "PGN Live (URL)"
+
+#: chess-podium.php
+msgid "Add a URL that returns PGN content. Fetched automatically every minute. Useful for DGT boards or external feeds."
+msgstr "Ajoutez une URL qui renvoie du contenu PGN. Récupéré automatiquement chaque minute. Utile pour les échiquiers DGT ou flux externes."
+
+#: chess-podium.php
+msgid "Interval (sec)"
+msgstr "Intervalle (sec)"
+
+#: chess-podium.php
+msgid "Add source"
+msgstr "Ajouter une source"
+
+#: chess-podium.php
+msgid "Last fetch: %s"
+msgstr "Dernier téléchargement : %s"
+
+#: chess-podium.php
+msgid "PGN live source added. Fetch runs every minute."
+msgstr "Source PGN live ajoutée. Le téléchargement s'exécute chaque minute."
+
+#: chess-podium.php
+msgid "PGN source removed."
+msgstr "Source PGN supprimée."
+
+#: chess-podium.php
+msgid "Enter a valid URL for PGN source."
+msgstr "Entrez une URL valide pour la source PGN."
+
+#: chess-podium.php
+msgid "Live - Tournament"
+msgstr "Live - Tournoi"
+
+#: chess-podium.php
+msgid "No standings"
+msgstr "Pas de classement"
+
+#: chess-podium.php
+msgid "No pairings"
+msgstr "Pas d'appariements"
+
+#: chess-podium.php
+msgid "No club ranking data. Publish tournaments to build the ranking."
+msgstr "Pas de données de classement du club. Publiez des tournois pour construire le classement."
+
+#: chess-podium.php
+msgid "Club ranking"
+msgstr "Classement du club"
+
+#: chess-podium.php
+msgid "Total points"
+msgstr "Points totaux"
+
+#: chess-podium.php
+msgid "Specify fide_id or name attribute."
+msgstr "Spécifiez l'attribut fide_id ou name."
+
+#: chess-podium.php
+msgid "Player not found."
+msgstr "Joueur non trouvé."
+
+#: chess-podium.php
+msgid "points"
+msgstr "points"
+
+#: chess-podium.php
+msgid "Tournament history"
+msgstr "Historique du tournoi"
+
+#: chess-podium.php
+msgid "Tournament brochure saved."
+msgstr "Règlement du tournoi enregistré."
+
+#: chess-podium.php
+msgid "Unable to save brochure."
+msgstr "Impossible d'enregistrer le règlement."
+
+#: chess-podium.php
+msgid "List of published tournaments"
+msgstr "Liste des tournois publiés"
+
+#: chess-podium.php
+msgid "Single tournament (omit id for current)"
+msgstr "Tournoi unique (omettre id pour l'actuel)"
+
+#: chess-podium.php
+msgid "Tournament brochure / announcement"
+msgstr "Règlement / annonce du tournoi"
+
+#: chess-podium.php
+msgid "Club ranking from all published tournaments"
+msgstr "Classement du club de tous les tournois publiés"
+
+#: chess-podium.php
+msgid "Player profile and history"
+msgstr "Profil et historique du joueur"
+
+#: chess-podium.php
+msgid "Player profile by name"
+msgstr "Profil du joueur par nom"
+
+#: includes/class-pdf-brochure.php
+msgid "Tournament announcement"
+msgstr "Annonce du tournoi"
+
+#: includes/class-pdf-brochure.php
+msgid "Venue"
+msgstr "Lieu"
+
+#: includes/class-pdf-brochure.php
+msgid "Map"
+msgstr "Carte"
+
+#: includes/class-pdf-brochure.php
+msgid "Round schedule"
+msgstr "Calendrier des rondes"
+
+#: includes/class-pdf-brochure.php
+msgid "Date"
+msgstr "Date"
+
+#: includes/class-pdf-brochure.php
+msgid "Prizes"
+msgstr "Prix"
+
+#: includes/class-pdf-brochure.php
+msgid "Start date: %s"
+msgstr "Date de début : %s"
+
+#: includes/class-pgn-live.php
+msgid "Every minute (PGN Live)"
+msgstr "Chaque minute (PGN Live)"

@@ -1,0 +1,1 @@
+{"name":"chess-podium/chess-podium","description":"Chess tournament manager for WordPress","require":{"dompdf/dompdf":"^2.0"},"autoload":{"classmap":[]},"config":{"optimize-autoloader":true}}

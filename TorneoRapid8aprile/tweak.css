@@ -1,0 +1,92 @@
+body {
+  padding-top: 30px;
+}
+
+/* round robin game against himself */
+td.hole {
+	background:url(hole.gif) no-repeat; 
+	background-position: left center; 
+}
+
+/* table cells */
+th {
+	padding: .5em .7em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+div.cb {
+background-color: black;
+color: white;
+font-size: 80%;
+text-align: center;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
+div.cw {
+//background-color: white;
+font-size: 80%; 
+text-align: center;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
+div.cf {
+text-align: center;
+font-size: 80%;
+background-color: #FFFF66;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+div.res {
+font-weight: bold;
+text-align: center;	
+font-size: 100%; 
+}
+td.result {
+	font-weight: bold;
+	text-align: center;	
+	font-size: 120%; 
+}
+td.score {
+	font-weight: bold;
+	text-align: left;	
+	font-size: 140%; 
+}
+td.name {
+	text-align: center;	
+}
+
+
+/* bold text for footer */
+tfoot th,
+tfoot td {
+	font-weight: bold;
+}
+
+
+.divider-vertical {
+height: 50px;
+margin: 0 3px;
+border-left: 2px solid #e2e2e2;
+border-right: 1px solid #FFF;
+}
+
+#rd-btn {
+    width: 36px !important;
+    margin: 2px 0px 2px 0px !important;
+}
+
+.anchor{
+   display:block;
+   height:75px;
+   margin-top:-75px;
+   visibility:hidden;
+}

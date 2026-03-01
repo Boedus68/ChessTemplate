@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" fill="#2c3e50" rx="8"/>
+  <path fill="#ecf0f1" d="M60 25 L65 35 L62 35 L62 45 L58 45 L58 35 L55 35 Z"/>
+  <path fill="#ecf0f1" d="M60 45 L70 55 L68 58 L52 58 L50 55 Z"/>
+  <rect x="48" y="58" width="24" height="8" fill="#ecf0f1"/>
+  <rect x="44" y="66" width="32" height="6" fill="#ecf0f1"/>
+  <rect x="40" y="72" width="40" height="8" fill="#ecf0f1" rx="2"/>
+  <rect x="35" y="80" width="50" height="6" fill="#ecf0f1" rx="1"/>
+  <circle cx="60" cy="92" r="4" fill="#ecf0f1"/>
+  <text x="60" y="112" font-family="Arial,sans-serif" font-size="10" fill="#bdc3c7" text-anchor="middle">Chess</text>
+</svg>

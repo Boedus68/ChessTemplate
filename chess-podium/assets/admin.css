@@ -1,0 +1,334 @@
+/**
+ * Chess Podium Admin Styles - User-friendly tabbed interface
+ */
+
+/* General */
+.cp-flag {
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+/* Tournament selector header */
+.cp-tournament-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.25rem;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.cp-tournament-header h2 {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.cp-tournament-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #50575e;
+}
+
+.cp-tournament-meta span {
+    padding: 0.25rem 0.5rem;
+    background: #f0f0f1;
+    border-radius: 3px;
+}
+
+/* Tab navigation */
+.cp-admin-tabs {
+    margin-top: 1.5rem;
+}
+
+.cp-tab-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 0;
+    padding: 0 0 0 1px;
+    border-bottom: 1px solid #c3c4c7;
+    background: #f0f0f1;
+}
+
+.cp-tab-nav button {
+    padding: 0.6rem 1rem;
+    margin: 0;
+    border: 1px solid transparent;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    background: transparent;
+    color: #50575e;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+.cp-tab-nav button:hover {
+    background: #fff;
+    color: #1d2327;
+}
+
+.cp-tab-nav button.cp-tab-active {
+    background: #fff;
+    color: #1d2327;
+    border-color: #c3c4c7;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+    font-weight: 600;
+}
+
+.cp-tab-panels {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-top: none;
+    padding: 1.5rem;
+    min-height: 200px;
+}
+
+.cp-tab-panel {
+    display: none;
+}
+
+.cp-tab-panel.cp-tab-active {
+    display: block;
+}
+
+.cp-tab-panel h3 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.cp-tab-panel h3:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+/* Overview tab - quick actions card */
+.cp-quick-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f6f7f7;
+    border-radius: 4px;
+}
+
+.cp-quick-actions .button {
+    margin: 0;
+}
+
+/* Cards for sections */
+.cp-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.cp-card-title {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+/* Compact forms */
+.cp-inline-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cp-inline-form .button {
+    margin: 0;
+}
+
+/* Tournament list - compact */
+.cp-tournament-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.cp-tournament-list a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #f0f0f1;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #2271b1;
+    transition: background 0.15s;
+}
+
+.cp-tournament-list a:hover {
+    background: #e0e0e0;
+}
+
+.cp-tournament-list a.cp-current {
+    background: #2271b1;
+    color: #fff;
+}
+
+/* Create tournament - compact */
+.cp-create-tournament {
+    max-width: 500px;
+    padding: 1rem;
+    background: #f6f7f7;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.cp-create-tournament .form-table th {
+    width: 140px;
+}
+
+.cp-create-tournament .form-table td {
+    padding: 0.5rem 0;
+}
+
+/* Section spacing */
+.cp-status-form,
+.cp-brochure-form {
+    margin-bottom: 1.5rem;
+}
+
+.cp-status-form table,
+.cp-brochure-form table.form-table {
+    margin-top: 0.5rem;
+}
+
+/* Brochure dynamic rows */
+#cp-brochure-prizes p,
+#cp-brochure-contacts p {
+    margin: 0.4rem 0;
+}
+
+#cp-brochure-prizes input[type="text"],
+#cp-brochure-contacts input {
+    margin-right: 0.5rem;
+}
+
+/* Tables - improved readability */
+.widefat.striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.widefat.striped tbody tr:hover {
+    background-color: #f0f6fc;
+}
+
+/* Form tables */
+.form-table th {
+    padding: 1rem 1rem 1rem 0;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.form-table td {
+    padding: 1rem 0;
+}
+
+/* Buttons grouping */
+.cp-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.cp-button-group .button {
+    margin: 0;
+}
+
+/* Section headers */
+.wrap h2 {
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #c3c4c7;
+    color: #1d2327;
+}
+
+.wrap h3 {
+    margin-top: 1.5rem;
+    color: #2c3338;
+}
+
+.wrap h4 {
+    margin-top: 1.2rem;
+    color: #50575e;
+}
+
+/* Notice boxes */
+.cp-description-box {
+    background: #f0f6fc;
+    border-left: 4px solid #2271b1;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Gallery thumbnails */
+.cp-admin-gallery .cp-gallery-thumb {
+    transition: opacity 0.2s;
+}
+
+.cp-admin-gallery .cp-gallery-thumb:hover {
+    opacity: 0.9;
+}
+
+/* Club ranking & profile tables (frontend) */
+.cp-club-table,
+.cp-profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.cp-club-table th,
+.cp-club-table td,
+.cp-profile-table th,
+.cp-profile-table td {
+    padding: 0.6rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cp-club-table th,
+.cp-profile-table th {
+    background: #f5f5f5;
+    font-weight: 600;
+}
+
+.cp-club-ranking h2,
+.cp-player-profile h2 {
+    margin-top: 0;
+}
+
+/* Print overrides */
+@media print {
+    .wrap h1,
+    .wrap hr,
+    .wrap form,
+    .wrap .button,
+    .wrap a[href*="admin.php"],
+    #wpadminbar,
+    #adminmenumain,
+    .update-nag {
+        display: none !important;
+    }
+    .checkmate-print-block {
+        background: #fff !important;
+        border: 1px solid #ccc !important;
+    }
+}

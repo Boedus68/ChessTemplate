@@ -1,0 +1,64 @@
+.cp-registration {
+    max-width: 480px;
+    padding: 1rem 0;
+}
+
+.cp-registration h3 {
+    margin-top: 0;
+}
+
+.cp-reg-fee {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.cp-reg-form p {
+    margin-bottom: 1rem;
+}
+
+.cp-reg-form label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.cp-reg-form input[type="text"],
+.cp-reg-form input[type="email"],
+.cp-reg-form input[type="number"],
+.cp-reg-form select {
+    width: 100%;
+    max-width: 320px;
+    padding: 0.4rem 0.6rem;
+}
+
+.cp-reg-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.cp-reg-buttons button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 1rem;
+}
+
+.cp-reg-buttons button:hover {
+    background: #f5f5f5;
+}
+
+.cp-reg-buttons button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.cp-reg-success {
+    padding: 1rem;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    color: #155724;
+}

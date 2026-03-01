@@ -1,0 +1,812 @@
+# Italian translation for Chess Podium
+# Copyright (C) 2025
+# This file is distributed under the same license as the Chess Podium package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Chess Podium 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-25 12:00+0000\n"
+"PO-Revision-Date: 2026-02-26 00:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: chess-podium.php
+msgid "Create your first tournament from the WordPress admin panel."
+msgstr "Crea il primo torneo dal pannello admin WordPress."
+
+#: chess-podium.php
+msgid "Chess Podium - Tournament Manager"
+msgstr "Chess Podium - Gestione tornei"
+
+#: chess-podium.php
+msgid "Create tournament, add players, generate rounds automatically and enter results."
+msgstr "Crea tornei, aggiungi giocatori, genera turni automaticamente e inserisci i risultati."
+
+#: chess-podium.php
+msgid "Create new tournament"
+msgstr "Crea nuovo torneo"
+
+#: chess-podium.php
+msgid "Tournament name"
+msgstr "Nome torneo"
+
+#: chess-podium.php
+msgid "Rounds"
+msgstr "Turni"
+
+#: chess-podium.php
+msgid "Tournament type"
+msgstr "Tipo torneo"
+
+#: chess-podium.php
+msgid "Swiss"
+msgstr "Svizzero"
+
+#: chess-podium.php
+msgid "Round Robin"
+msgstr "Round Robin"
+
+#: chess-podium.php
+msgid "Swiss: pairing by score. Round Robin: everyone plays everyone."
+msgstr "Svizzero: accoppiamento per punteggio. Round Robin: tutti giocano contro tutti."
+
+#: chess-podium.php
+msgid "BYE points"
+msgstr "Punti BYE"
+
+#: chess-podium.php
+msgid "Points awarded to player when they have a bye."
+msgstr "Punti assegnati al giocatore quando ha il bye."
+
+#: chess-podium.php
+msgid "Tiebreakers"
+msgstr "Spareggi"
+
+#: chess-podium.php
+msgid "Criteria order: buchholz, sb, rating, direct (comma-separated)."
+msgstr "Ordine criteri: buchholz, sb, rating, diretto (separati da virgola)."
+
+#: chess-podium.php
+msgid "Create tournament"
+msgstr "Crea torneo"
+
+#: chess-podium.php
+msgid "Existing tournaments"
+msgstr "Tornei esistenti"
+
+#: chess-podium.php
+msgid "No tournaments created."
+msgstr "Nessun torneo creato."
+
+#: chess-podium.php
+msgid "Current round"
+msgstr "Turno corrente"
+
+#: chess-podium.php
+msgid "Tournament details"
+msgstr "Dettaglio torneo"
+
+#: chess-podium.php
+msgid "Permanently delete this tournament? All players, pairings, photos and PGN games will be removed."
+msgstr "Eliminare definitivamente questo torneo? Tutti i giocatori, abbinamenti, foto e partite PGN verranno cancellati."
+
+#: chess-podium.php
+msgid "Delete tournament"
+msgstr "Elimina torneo"
+
+#: chess-podium.php
+msgid "Type"
+msgstr "Tipo"
+
+#: chess-podium.php
+msgid "Public page"
+msgstr "Pagina pubblica"
+
+#: chess-podium.php
+msgid "Publish tournament (static export)"
+msgstr "Pubblica torneo (export statico)"
+
+#: chess-podium.php
+msgid "Generate a linkable HTML folder in wp-content/uploads/chess-podium/ with standings, pairings, PGN games and photo gallery."
+msgstr "Genera una cartella HTML linkabile in wp-content/uploads/chess-podium/ con classifica, abbinamenti, partite PGN e galleria foto."
+
+#: chess-podium.php
+msgid "Publish tournament"
+msgstr "Pubblica torneo"
+
+#: chess-podium.php
+msgid "Open published page"
+msgstr "Apri pagina pubblicata"
+
+#: chess-podium.php includes/class-export-engine.php
+msgid "Photo gallery"
+msgstr "Galleria foto"
+
+#: chess-podium.php
+msgid "Single upload"
+msgstr "Carica singola"
+
+#: chess-podium.php
+msgid "or bulk (multiple files)"
+msgstr "oppure bulk (più file)"
+
+#: chess-podium.php
+msgid "or URL"
+msgstr "oppure URL"
+
+#: chess-podium.php
+msgid "Caption (optional)"
+msgstr "Didascalia (opzionale)"
+
+#: chess-podium.php
+msgid "Add photo"
+msgstr "Aggiungi foto"
+
+#: chess-podium.php
+msgid "Select multiple images with Ctrl+click (or Cmd+click on Mac). Caption applies to all photos in bulk upload."
+msgstr "Puoi selezionare più immagini contemporaneamente con Ctrl+click (o Cmd+click su Mac). La didascalia si applica a tutte le foto del caricamento bulk."
+
+#: chess-podium.php
+msgid "Click on a photo to enlarge and browse."
+msgstr "Clicca su una foto per ingrandirla e scorrere."
+
+#: chess-podium.php
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: chess-podium.php
+msgid "PGN games"
+msgstr "Partite PGN"
+
+#: chess-podium.php
+msgid "Upload PGN file or paste content. Games will be viewable on the published page."
+msgstr "Carica file PGN o incolla il contenuto. Le partite saranno visualizzabili nella pagina pubblicata."
+
+#: chess-podium.php
+msgid "Round"
+msgstr "Turno"
+
+#: chess-podium.php
+msgid "Upload PGN"
+msgstr "Carica PGN"
+
+#: chess-podium.php
+msgid "White"
+msgstr "Bianco"
+
+#: chess-podium.php
+msgid "Black"
+msgstr "Nero"
+
+#: chess-podium.php
+msgid "Result"
+msgstr "Risultato"
+
+#: chess-podium.php
+msgid "Name"
+msgstr "Nome"
+
+#: chess-podium.php
+msgid "Paste PGN here..."
+msgstr "Incolla qui il PGN della partita..."
+
+#: chess-podium.php
+msgid "Add game"
+msgstr "Aggiungi partita"
+
+#: chess-podium.php
+msgid "Loaded games"
+msgstr "Partite caricate"
+
+#: chess-podium.php
+msgid "Round %d"
+msgstr "Turno %d"
+
+#: chess-podium.php
+msgid "Add player"
+msgstr "Aggiungi giocatore"
+
+#: chess-podium.php
+msgid "Import players from CSV"
+msgstr "Importa giocatori da CSV"
+
+#: chess-podium.php
+msgid "Import CSV"
+msgstr "Importa CSV"
+
+#: chess-podium.php
+msgid "Format: name;rating or name,rating. First row: optional header (name,rating)."
+msgstr "Formato: nome;rating oppure nome,rating. Prima riga: intestazione opzionale (nome,rating)."
+
+#: chess-podium.php
+msgid "Import player from FIDE ID"
+msgstr "Importa giocatore da FIDE ID"
+
+#: chess-podium.php
+msgid "FIDE ID"
+msgstr "FIDE ID"
+
+#: chess-podium.php
+msgid "e.g. 1503014"
+msgstr "es. 1503014"
+
+#: chess-podium.php
+msgid "Automatic import from official FIDE source: name, FIDE ID, standard Elo."
+msgstr "Import automatico da fonte ufficiale FIDE: nome, FIDE ID, Elo standard."
+
+#: chess-podium.php
+msgid "Import from FIDE"
+msgstr "Importa da FIDE"
+
+#: chess-podium.php
+msgid "Registered players (%d)"
+msgstr "Giocatori iscritti (%d)"
+
+#: chess-podium.php
+msgid "No players added yet."
+msgstr "Nessun giocatore inserito."
+
+#: chess-podium.php
+msgid "Rating"
+msgstr "Rating"
+
+#: chess-podium.php
+msgid "Actions"
+msgstr "Azioni"
+
+#: chess-podium.php
+msgid "Save"
+msgstr "Salva"
+
+#: chess-podium.php
+msgid "Permanently delete this player?"
+msgstr "Eliminare definitivamente questo giocatore?"
+
+#: chess-podium.php
+msgid "Delete"
+msgstr "Elimina"
+
+#: chess-podium.php
+msgid "Cannot delete: already paired in one or more rounds."
+msgstr "Non eliminabile: già abbinato in uno o più turni."
+
+#: chess-podium.php
+msgid "Generate round"
+msgstr "Genera turno"
+
+#: chess-podium.php
+msgid "Generate next round"
+msgstr "Genera prossimo turno"
+
+#: chess-podium.php
+msgid "Round 1: pairing by rating. Later rounds: basic Swiss (avoids rematch when possible)."
+msgstr "Round 1: accoppiamento per rating. Round successivi: svizzero base (evita rematch quando possibile)."
+
+#: chess-podium.php
+msgid "Generate round and print pairings"
+msgstr "Genera turno e stampa abbinamenti"
+
+#: chess-podium.php
+msgid "Generate next round and open printable pairings in the same panel."
+msgstr "Genera il prossimo turno e apre il tabellone stampabile nello stesso pannello."
+
+#: chess-podium.php
+msgid "Cancel current round and remove all pairings/results for this round?"
+msgstr "Annullare il turno corrente e cancellare tutti gli abbinamenti/risultati del turno?"
+
+#: chess-podium.php
+msgid "Rollback current round"
+msgstr "Annulla turno corrente"
+
+#: chess-podium.php
+msgid "Useful for corrections: completely removes the last generated round."
+msgstr "Utile per correggere errori: rimuove completamente l'ultimo turno generato."
+
+#: chess-podium.php
+msgid "Current round results"
+msgstr "Risultati turno corrente"
+
+#: chess-podium.php
+msgid "Edit round results"
+msgstr "Modifica risultati turno"
+
+#: chess-podium.php
+msgid "No pairings for the selected round."
+msgstr "Nessun abbinamento per il turno selezionato."
+
+#: chess-podium.php
+msgid "Edit results for round %d."
+msgstr "Modifica risultati turno %d."
+
+#: chess-podium.php
+msgid "Board"
+msgstr "Tavolo"
+
+#: chess-podium.php
+msgid "Not entered"
+msgstr "Non inserito"
+
+#: chess-podium.php
+msgid "Save results"
+msgstr "Salva risultati"
+
+#: chess-podium.php
+msgid "Standings"
+msgstr "Classifica"
+
+#: chess-podium.php
+msgid "No standings available."
+msgstr "Nessuna classifica disponibile."
+
+#: chess-podium.php
+msgid "Pos"
+msgstr "Pos"
+
+#: chess-podium.php
+msgid "Player"
+msgstr "Giocatore"
+
+#: chess-podium.php
+msgid "Pts"
+msgstr "Punti"
+
+#: chess-podium.php
+msgid "Buchholz"
+msgstr "Buchholz"
+
+#: chess-podium.php
+msgid "SB"
+msgstr "SB"
+
+#: chess-podium.php
+msgid "Print"
+msgstr "Stampa"
+
+#: chess-podium.php
+msgid "Print standings"
+msgstr "Stampa classifica"
+
+#: chess-podium.php
+msgid "Opens standings in printable format."
+msgstr "Apre la classifica in formato stampabile."
+
+#: chess-podium.php
+msgid "Print round pairings"
+msgstr "Stampa abbinamenti turno"
+
+#: chess-podium.php
+msgid "Export tournament data"
+msgstr "Esporta dati torneo"
+
+#: chess-podium.php
+msgid "Export rounds (CSV)"
+msgstr "Esporta turni (CSV)"
+
+#: chess-podium.php
+msgid "Export standings (CSV)"
+msgstr "Esporta classifica (CSV)"
+
+#: chess-podium.php
+msgid "Use these files to share tournament data and debug pairing."
+msgstr "Usa questi file per condividere i dati del torneo e fare debug del pairing."
+
+#: chess-podium.php
+msgid "No published tournaments. Publish a tournament from Chess Podium to see it here."
+msgstr "Nessun torneo pubblicato. Pubblica un torneo da Chess Podium per vederlo qui."
+
+#: chess-podium.php
+msgid "%d round"
+msgid_plural "%d rounds"
+msgstr[0] "%d turno"
+msgstr[1] "%d turni"
+
+#: chess-podium.php
+msgid "Standings not available."
+msgstr "Classifica non disponibile."
+
+#: chess-podium.php
+msgid "in progress"
+msgstr "in corso"
+
+#: chess-podium.php
+msgid "Printable pairings - %s - Round %d"
+msgstr "Tabellone stampabile - %s - Turno %d"
+
+#: chess-podium.php
+msgid "Print now"
+msgstr "Stampa adesso"
+
+#: chess-podium.php
+msgid "Printable standings - %s"
+msgstr "Classifica stampabile - %s"
+
+#: chess-podium.php
+msgid "Tournaments"
+msgstr "Tornei"
+
+#: includes/class-export-engine.php
+msgid "Home"
+msgstr "Home"
+
+#: includes/class-export-engine.php
+msgid "View full standings"
+msgstr "Vedi classifica completa"
+
+#: includes/class-export-engine.php
+msgid "Pairings round %d"
+msgstr "Abbinamenti turno %d"
+
+#: includes/class-export-engine.php
+msgid "No PGN games loaded."
+msgstr "Nessuna partita PGN caricata."
+
+#: includes/class-export-engine.php
+msgid "Games"
+msgstr "Partite"
+
+#: includes/class-export-engine.php
+msgid "Use the controls below the board to navigate the game."
+msgstr "Usa i controlli sotto la scacchiera per navigare la partita."
+
+#: includes/class-export-engine.php
+msgid "No photos loaded."
+msgstr "Nessuna foto caricata."
+
+#: includes/class-export-engine.php
+msgid "Gallery"
+msgstr "Galleria"
+
+#: includes/class-export-engine.php
+msgid "Close"
+msgstr "Chiudi"
+
+#: includes/class-export-engine.php
+msgid "Previous"
+msgstr "Precedente"
+
+#: includes/class-export-engine.php
+msgid "Next"
+msgstr "Successiva"
+
+#: includes/class-export-engine.php
+msgid "Moves:"
+msgstr "Mosse:"
+
+#: includes/class-export-engine.php
+msgid "(no moves)"
+msgstr "(nessuna mossa)"
+
+#: includes/class-export-engine.php
+msgid "← Previous"
+msgstr "← Precedente"
+
+#: includes/class-export-engine.php
+msgid "Next →"
+msgstr "Successiva →"
+
+#: includes/class-export-engine.php
+msgid "Generated by %s"
+msgstr "Generato da %s"
+
+#: includes/class-export-engine.php
+msgid "Chess Podium"
+msgstr "Chess Podium"
+
+#: includes/class-export-engine.php
+msgid "Players"
+msgstr "Giocatori"
+
+#: includes/class-export-engine.php
+msgid "Wins"
+msgstr "Vittorie"
+
+#: includes/class-export-engine.php
+msgid "Draws"
+msgstr "Patte"
+
+#: includes/class-export-engine.php
+msgid "Losses"
+msgstr "Sconfitte"
+
+#: includes/class-export-engine.php
+msgid "Opponents"
+msgstr "Avversari"
+
+#: includes/class-export-engine.php
+msgid "Round"
+msgstr "Turno"
+
+#: includes/class-export-engine.php
+msgid "Elo variation"
+msgstr "Variazione Elo"
+
+#: includes/class-export-engine.php
+msgid "Performance"
+msgstr "Performance"
+
+#: includes/class-export-engine.php
+msgid "Rating"
+msgstr "Rating"
+
+#: includes/class-export-engine.php
+msgid "Color"
+msgstr "Colore"
+
+#: includes/class-export-engine.php
+msgid "Result"
+msgstr "Risultato"
+
+#: includes/class-chess-podium-widget.php
+msgid "Published tournaments"
+msgstr "Tornei pubblicati"
+
+#: includes/class-chess-podium-widget.php
+msgid "Number of tournaments:"
+msgstr "Numero di tornei:"
+
+#: includes/class-chess-podium-widget.php
+msgid "Show preview image"
+msgstr "Mostra immagine anteprima"
+
+#: includes/class-chess-podium-widget.php
+msgid "View all tournaments"
+msgstr "Vedi tutti i tornei"
+
+#: chess-podium.php
+msgid "Add to page"
+msgstr "Aggiungi a pagina"
+
+#: chess-podium.php
+msgid "Add tournaments to a page"
+msgstr "Aggiungi tornei a una pagina"
+
+#: chess-podium.php
+msgid "Use this shortcode to display published tournaments on any page or post:"
+msgstr "Usa questo shortcode per mostrare i tornei pubblicati in qualsiasi pagina o articolo:"
+
+#: chess-podium.php
+msgid "How to add:"
+msgstr "Come aggiungere:"
+
+#: chess-podium.php
+msgid "Edit the page or post where you want to show the tournaments."
+msgstr "Modifica la pagina o l'articolo dove vuoi mostrare i tornei."
+
+#: chess-podium.php
+msgid "Add a \"Shortcode\" block (search for \"Shortcode\" in the block inserter)."
+msgstr "Aggiungi un blocco \"Shortcode\" (cerca \"Shortcode\" nell'inseritore di blocchi)."
+
+#: chess-podium.php
+msgid "Paste the shortcode above into the block."
+msgstr "Incolla lo shortcode sopra nel blocco."
+
+#: chess-podium.php
+msgid "Save and publish."
+msgstr "Salva e pubblica."
+
+#: chess-podium.php
+msgid "Create new page"
+msgstr "Crea nuova pagina"
+
+#: chess-podium.php
+msgid "External tournaments"
+msgstr "Tornei esterni"
+
+#: chess-podium.php
+msgid "Add tournaments created by other software (e.g. Vega, Swiss Manager) that are already hosted on your site. They will appear on the tournaments page with the same layout as Chess Podium tournaments."
+msgstr "Aggiungi tornei creati con altro software (es. Vega, Swiss Manager) già ospitati sul tuo sito. Appariranno nella pagina tornei con lo stesso layout dei tornei Chess Podium."
+
+#: chess-podium.php
+msgid "External tournament added."
+msgstr "Torneo esterno aggiunto."
+
+#: chess-podium.php
+msgid "External tournament updated."
+msgstr "Torneo esterno aggiornato."
+
+#: chess-podium.php
+msgid "External tournament removed."
+msgstr "Torneo esterno rimosso."
+
+#: chess-podium.php
+msgid "Error: enter name and URL."
+msgstr "Errore: inserisci nome e URL."
+
+#: chess-podium.php
+msgid "Add external tournament"
+msgstr "Aggiungi torneo esterno"
+
+#: chess-podium.php
+msgid "Edit external tournament"
+msgstr "Modifica torneo esterno"
+
+#: chess-podium.php
+msgid "Preview image URL"
+msgstr "URL immagine anteprima"
+
+#: chess-podium.php
+msgid "Preview image"
+msgstr "Immagine anteprima"
+
+#: chess-podium.php
+msgid "URL or upload below. Optional. If empty, the default logo will be used."
+msgstr "URL o carica sotto. Opzionale. Se vuoto, verrà usato il logo predefinito."
+
+#: chess-podium.php
+msgid "Optional. If empty, the default logo will be used."
+msgstr "Opzionale. Se vuoto, verrà usato il logo predefinito."
+
+#: chess-podium.php
+msgid "Select from Media Library"
+msgstr "Seleziona dalla libreria media"
+
+#: chess-podium.php
+msgid "Select preview image"
+msgstr "Seleziona immagine anteprima"
+
+#: chess-podium.php
+msgid "Use image"
+msgstr "Usa immagine"
+
+#: chess-podium.php
+msgid "Optional. Used for display (e.g. \"5 rounds\")."
+msgstr "Opzionale. Usato per la visualizzazione (es. \"5 turni\")."
+
+#: chess-podium.php
+msgid "Add tournament"
+msgstr "Aggiungi torneo"
+
+#: chess-podium.php
+msgid "Update tournament"
+msgstr "Aggiorna torneo"
+
+#: chess-podium.php
+msgid "Cancel"
+msgstr "Annulla"
+
+#: chess-podium.php
+msgid "Edit"
+msgstr "Modifica"
+
+#: chess-podium.php
+msgid "External tournaments list"
+msgstr "Elenco tornei esterni"
+
+#: chess-podium.php
+msgid "No external tournaments added."
+msgstr "Nessun torneo esterno aggiunto."
+
+#: chess-podium.php
+msgid "Remove this external tournament?"
+msgstr "Rimuovere questo torneo esterno?"
+
+#: chess-podium.php
+msgid "e.g. Campionato 2024"
+msgstr "es. Campionato 2024"
+
+#: chess-podium.php
+msgid "No tournament in progress"
+msgstr "Nessun torneo in progressione"
+
+#: chess-podium.php
+msgid "There is no tournament currently being played. Check back later or contact the tournament director."
+msgstr "Non c'è alcun torneo in corso. Ricontrolla più tardi o contatta la direzione torneo."
+
+#: chess-podium.php
+msgid "Current tournament"
+msgstr "Torneo in corso"
+
+#: chess-podium.php
+msgid "Current round pairings"
+msgstr "Abbinamenti turno corrente"
+
+#: chess-podium.php
+msgid "No pairings generated yet."
+msgstr "Nessun abbinamento generato."
+
+#: chess-podium.php
+msgid "Live tournament page (for players)"
+msgstr "Pagina torneo live (per i giocatori)"
+
+#: chess-podium.php
+msgid "Share these URLs with players to follow pairings and standings during the tournament. Shows \"No tournament in progress\" when no tournament is being played."
+msgstr "Condividi questi URL con i giocatori per seguire abbinamenti e classifica durante il torneo. Mostra \"Nessun torneo in progressione\" quando non c'è alcun torneo in corso."
+
+#: chess-podium.php
+msgid "— Select country —"
+msgstr "— Seleziona nazionalità —"
+
+#: chess-podium.php
+msgid "Nationality"
+msgstr "Nazionalità"
+
+#: chess-podium.php
+msgid "Required for manual entry. Shown as flag next to player name."
+msgstr "Obbligatorio per inserimento manuale. Mostrato come bandiera accanto al nome."
+
+#: chess-podium.php
+msgid "Select a nationality for the player."
+msgstr "Seleziona una nazionalità per il giocatore."
+
+#: chess-podium.php
+msgid "Automatic import from official FIDE source: name, FIDE ID, standard Elo, nationality (when available)."
+msgstr "Import automatico da fonte ufficiale FIDE: nome, FIDE ID, Elo standard, nazionalità (quando disponibile)."
+
+#: chess-podium.php
+msgid "Format: name;rating or name;rating;fide_id;country. First row: optional header. Country: ISO 2-letter (e.g. IT, DE)."
+msgstr "Formato: nome;rating oppure nome;rating;fide_id;country. Prima riga: intestazione opzionale. Country: codice ISO 2 lettere (es. IT, DE)."
+
+#: chess-podium.php
+msgid "Player limit reached. Upgrade to Chess Podium Pro for unlimited players."
+msgstr "Limite giocatori raggiunto. Passa a Chess Podium Pro per giocatori illimitati."
+
+#: chess-podium.php
+msgid "Chess Podium License"
+msgstr "Licenza Chess Podium"
+
+#: chess-podium.php
+msgid "License saved. Validating..."
+msgstr "Licenza salvata. Validazione in corso..."
+
+#: chess-podium.php
+msgid "License removed."
+msgstr "Licenza rimossa."
+
+#: chess-podium.php
+msgid "Chess Podium Pro"
+msgstr "Chess Podium Pro"
+
+#: chess-podium.php
+msgid "Unlimited players. License active."
+msgstr "Giocatori illimitati. Licenza attiva."
+
+#: chess-podium.php
+msgid "Free version"
+msgstr "Versione gratuita"
+
+#: chess-podium.php
+msgid "Limit: %d players per tournament."
+msgstr "Limite: %d giocatori per torneo."
+
+#: chess-podium.php
+msgid "Upgrade to Pro for unlimited players, priority support, and more. €79/year."
+msgstr "Passa a Pro per giocatori illimitati, supporto prioritario e altro. 79€/anno."
+
+#: chess-podium.php
+msgid "License key"
+msgstr "Chiave licenza"
+
+#: chess-podium.php
+msgid "Save license"
+msgstr "Salva licenza"
+
+#: chess-podium.php
+msgid "Remove license"
+msgstr "Rimuovi licenza"
+
+#: chess-podium.php
+msgid "Remove license?"
+msgstr "Rimuovere la licenza?"
+
+#: chess-podium.php
+msgid "Enter the license key you received after purchasing Chess Podium Pro. Validation runs periodically."
+msgstr "Inserisci la chiave licenza ricevuta dopo l'acquisto di Chess Podium Pro. La validazione avviene periodicamente."
+
+#: chess-podium.php
+msgid "License"
+msgstr "Licenza"
+
+#: chess-podium.php
+msgid "players"
+msgstr "giocatori"
+
+#: chess-podium.php
+msgid "Import disabled: player limit reached."
+msgstr "Import disabilitato: limite giocatori raggiunto."
