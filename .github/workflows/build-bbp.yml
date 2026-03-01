@@ -16,12 +16,18 @@ jobs:
     steps:
       - name: Install deps and build
         run: |
-          # Fix CentOS 7 EOL: usa vault.centos.org
-          sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
-          sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+          # Fix CentOS 7 EOL: disabilita mirrorlist, usa vault.centos.org
+          fix_repos() {
+            for f in /etc/yum.repos.d/*.repo; do
+              [ -f "$f" ] || continue
+              sed -i 's/^mirrorlist=/#mirrorlist=/g' "$f"
+              sed -i 's|^#baseurl=|baseurl=|g' "$f"
+              sed -i 's|mirror.centos.org|vault.centos.org|g' "$f"
+            done
+          }
+          fix_repos
           yum install -y centos-release-scl
-          sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/centos-scl*.repo 2>/dev/null || true
-          sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/centos-scl*.repo 2>/dev/null || true
+          fix_repos
           yum install -y devtoolset-7-gcc-c++ make wget tar
           source /opt/rh/devtoolset-7/enable
           cd /tmp
