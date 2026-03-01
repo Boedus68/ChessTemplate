@@ -1,6 +1,6 @@
-# Compila bbpPairings v4.1.0 per glibc 2.17 (CentOS 7)
-# Per eseguire: push su GitHub, poi Actions → Build bbpPairings → Run workflow
-# L'artifact bbpPairings.exe sarà scaricabile dalla pagina della run
+# Compila bbpPairings v4.1.0 per glibc 2.27 (Ubuntu 18.04)
+# CentOS 7 ha repo EOL problematici; Ubuntu 18.04 ha repo funzionanti.
+# Il binario richiede glibc 2.27 - prova su bedo.it.
 
 name: Build bbpPairings for old glibc
 
@@ -11,25 +11,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: centos:7
+      image: ubuntu:18.04
       options: --user root
     steps:
       - name: Install deps and build
         run: |
-          # Fix CentOS 7 EOL: disabilita mirrorlist, usa vault.centos.org
-          fix_repos() {
-            for f in /etc/yum.repos.d/*.repo; do
-              [ -f "$f" ] || continue
-              sed -i 's/^mirrorlist=/#mirrorlist=/g' "$f"
-              sed -i 's|^#baseurl=|baseurl=|g' "$f"
-              sed -i 's|mirror.centos.org|vault.centos.org|g' "$f"
-            done
-          }
-          fix_repos
-          yum install -y centos-release-scl
-          fix_repos
-          yum install -y devtoolset-7-gcc-c++ make wget tar
-          source /opt/rh/devtoolset-7/enable
+          apt-get update && apt-get install -y g++ make wget tar
           cd /tmp
           wget -q https://github.com/BieremaBoyzProgramming/bbpPairings/archive/refs/tags/v4.1.0.tar.gz -O bbp.tar.gz
           tar -xzf bbp.tar.gz
